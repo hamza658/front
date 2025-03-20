@@ -70,7 +70,7 @@ const RouteMap = () => {
         // Check if we have an ID in the URL
         if (id) {
           // Fetch the specific trip by ID
-          const response = await axios.get(`http://127.0.0.1:8000/api/trips/${id}/`);
+          const response = await axios.get(`https://trip-logger-app-4.onrender.com/api/trips/${id}/`);
           setTripData(response.data);
         } else {
           // Fallback to stored data or latest trip

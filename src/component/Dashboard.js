@@ -69,8 +69,8 @@ const Dashboard = () => {
         try {
           // Try different API endpoints that might have trip data
           const endpoints = [
-            'http://127.0.0.1:8000/api/trips/',
-            'http://127.0.0.1:8000/api/logsheets/',
+            'https://trip-logger-app-4.onrender.com/api/trips/',
+            'https://trip-logger-app-4.onrender.com/api/logsheets/',
             '/api/trips/',
             '/api/logsheets/'
           ];

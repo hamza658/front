@@ -31,7 +31,7 @@ const TripForm = () => {
     
     console.log("Submitting data:", dataToSubmit);
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/trips/', dataToSubmit, {
+      const response = await axios.post('https://trip-logger-app-4.onrender.com/api/trips/', dataToSubmit, {
         headers: {
           'Content-Type': 'application/json',
         },
